@@ -1,0 +1,23 @@
+{
+  "name": "flix",
+  "version": "1.0.0",
+  "description": "netflix test",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha $(find src/js -name '*.spec.js') --reporter nyan --require babel-register",
+    "build:js": "npx webpack",
+    "build": "npm run build",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "uglifyjs-webpack-plugin": "^1.1.6",
+    "webpack": "^3.10.0"
+  }
+}

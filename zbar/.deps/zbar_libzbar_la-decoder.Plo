@@ -1,0 +1,63 @@
+zbar/zbar_libzbar_la-decoder.lo: zbar/decoder.c include/config.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdio.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdio.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h \
+  include/zbar.h zbar/decoder.h zbar/decoder/ean.h zbar/decoder/i25.h \
+  zbar/decoder/code39.h zbar/decoder/code128.h zbar/decoder/qr_finder.h \
+  zbar/qrcode.h zbar/debug.h
+
+include/config.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdio.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdio.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h:
+
+include/zbar.h:
+
+zbar/decoder.h:
+
+zbar/decoder/ean.h:
+
+zbar/decoder/i25.h:
+
+zbar/decoder/code39.h:
+
+zbar/decoder/code128.h:
+
+zbar/decoder/qr_finder.h:
+
+zbar/qrcode.h:
+
+zbar/debug.h:

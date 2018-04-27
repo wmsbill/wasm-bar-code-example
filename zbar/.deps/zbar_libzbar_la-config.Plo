@@ -1,0 +1,51 @@
+zbar/zbar_libzbar_la-config.lo: zbar/config.c include/config.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/errno.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/errno.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/errno.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/assert.h \
+  include/zbar.h
+
+include/config.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/errno.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/errno.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/errno.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/assert.h:
+
+include/zbar.h:

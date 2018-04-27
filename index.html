@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5 Barcode scanner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        video, canvas {
+            max-width:100%;
+        }
+    </style>
+</head>
+<body>
+
+<!-- <video id="capture" autoplay></video> -->
+<canvas id="snap"></canvas>
+
+<!-- <script src="wasm/image-processor.js" type="text/javascript" charset="utf-8"></script> -->
+<script>
+    let video = document.getElementById('capture'),
+        canvas = document.getElementById('snap');
+
+    /**
+     *    generates a still frame image from the stream in the <video>
+     *    appends the image to the <body>
+     */
+    function takeSnapshot() {
+        let context,
+            canvasWidth = video.offsetWidth,
+            canvasHeight = video.offsetHeight/3,
+            sourceHeightClip = (video.offsetHeight - canvasHeight)/2;
+
+        canvas = canvas || document.createElement('canvas');
+        canvas.width = canvasWidth;
+        canvas.height = canvasHeight;
+
+        context = canvas.getContext('2d');
+        context.drawImage(
+            video,
+            0, sourceHeightClip, canvasWidth, canvasHeight,
+            0, 0, canvasWidth, canvasHeight
+        );
+
+        let imageData = context.getImageData(0, 0, canvasWidth, canvasHeight);
+
+        getY800Image(imageData.data, canvasWidth, canvasHeight);
+
+        // requestAnimationFrame(takeSnapshot);
+    }
+
+    function getY800Image(data, width, height) {
+        let y800ImageSample = Uint8ClampedArray(width * height);
+
+        // TODO: Add a second pointer to speed up the byte copy
+        for (let i = 0; i < data.length; i += 4) {
+            y800ImageSample[j] = (data[i] + data[i + 1] + data[i + 2]) / 3;
+        }
+
+        return y800ImageSample;
+    }
+
+    function initMedia() {
+        // use MediaDevices API
+        // docs: https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia
+        if (navigator.mediaDevices) {
+            // access the web cam
+            navigator.mediaDevices.getUserMedia({video: true})
+            // permission granted:
+                .then(function(stream) {
+                    // video.src = window.URL.createObjectURL(stream);
+                    video.srcObject = stream;
+                    video.addEventListener('click', takeSnapshot);
+                })
+                // permission denied:
+                .catch(function(error) {
+                    document.body.textContent = 'Could not access the camera. Error: ' + error.name;
+                });
+        }
+    }
+
+    // initMedia();
+</script>
+</body>
+</html>

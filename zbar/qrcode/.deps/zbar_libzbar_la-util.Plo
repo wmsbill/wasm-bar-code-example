@@ -1,0 +1,25 @@
+zbar/qrcode/zbar_libzbar_la-util.lo: zbar/qrcode/util.c \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h \
+  zbar/qrcode/util.h
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h:
+
+zbar/qrcode/util.h:

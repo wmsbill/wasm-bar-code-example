@@ -1,0 +1,95 @@
+zbar/qrcode/zbar_libzbar_la-binarize.lo: zbar/qrcode/binarize.c \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/math.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/math.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/math.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h \
+  zbar/qrcode/util.h zbar/image.h include/config.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/inttypes.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/inttypes.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdint.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdint.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/stdint.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/assert.h \
+  include/zbar.h zbar/error.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdio.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdio.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/errno.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/errno.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/errno.h \
+  zbar/symbol.h zbar/refcnt.h zbar/qrcode/binarize.h
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/math.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/math.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/math.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h:
+
+zbar/qrcode/util.h:
+
+zbar/image.h:
+
+include/config.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/inttypes.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/inttypes.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdint.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdint.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/stdint.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/assert.h:
+
+include/zbar.h:
+
+zbar/error.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdio.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdio.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/errno.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/errno.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/errno.h:
+
+zbar/symbol.h:
+
+zbar/refcnt.h:
+
+zbar/qrcode/binarize.h:

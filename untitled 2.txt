@@ -1,0 +1,26 @@
+navigator.mediaDevices.getUserMedia()
+
+        const imageData = context.getImageData(0, 0, canvasWidth, canvasHeight);
+
+# ➜ ./configure --without-python --without-imagemagick --without-gtk --without-xshm --without-qt --disable-pthread --disable-video
+
+######################
+É Esse daqui!!!!!
+clang -O3 c/image-processor.c -o c/image-processor.o --target=wasm32-unknown-unknown-wasm -c -v \
+-Iinclude
+
+lld -flavor wasm zbar/zbar_libzbar_la-image.o zbar/zbar_libzbar_la-refcnt.o zbar/zbar_libzbar_la-symbol.o c/image-processor.o \
+-o wasm/clean-image-processor.wasm -e scanImage
+
+emcc -o wasm/image-processor.js zbar/zbar_libzbar_la-image.o zbar/zbar_libzbar_la-refcnt.o zbar/zbar_libzbar_la-symbol.o c/image-processor.c -O3 -Oz --memory-init-file 0  -v \
+-s WASM=1 \
+-Iinclude \
+-s BINARYEN_METHOD="'native-wasm,interpret-s-expr'" \
+-s EXPORTED_FUNCTIONS="['_scanImage']" \
+-s ALLOW_MEMORY_GROWTH=1 \
+-s NO_EXIT_RUNTIME=1 \
+-s ONLY_MY_CODE=1
+
+
+--memory-init-file 0
+######################

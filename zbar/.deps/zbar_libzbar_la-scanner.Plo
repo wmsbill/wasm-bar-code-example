@@ -1,0 +1,49 @@
+zbar/zbar_libzbar_la-scanner.lo: zbar/scanner.c include/config.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h \
+  include/zbar.h zbar/svg.h zbar/debug.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdio.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdio.h
+
+include/config.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdlib.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/alloca.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h:
+
+include/zbar.h:
+
+zbar/svg.h:
+
+zbar/debug.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/stdio.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/stdio.h:

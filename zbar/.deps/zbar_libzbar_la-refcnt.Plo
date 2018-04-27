@@ -1,0 +1,12 @@
+zbar/zbar_libzbar_la-refcnt.lo: zbar/refcnt.c zbar/refcnt.h \
+  include/config.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/assert.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h
+
+zbar/refcnt.h:
+
+include/config.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/assert.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h:

@@ -1,0 +1,43 @@
+zbar/qrcode/zbar_libzbar_la-isaac.lo: zbar/qrcode/isaac.c \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/float.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/float.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/float.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/math.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/math.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/math.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h \
+  /Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h \
+  zbar/qrcode/isaac.h
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/float.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/__config:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/float.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/float.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/math.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/math.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/math.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/features.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/bits/alltypes.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libcxx/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/compat/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/string.h:
+
+/Users/willian/Sites/emsdk/emscripten/1.37.38/system/include/libc/strings.h:
+
+zbar/qrcode/isaac.h:
