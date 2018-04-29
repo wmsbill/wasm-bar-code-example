@@ -16,8 +16,9 @@ emcc -o wasm/image-processor.js zbar/zbar_libzbar_la-image.o zbar/zbar_libzbar_l
 -s WASM=1 \
 -Iinclude \
 -s BINARYEN_METHOD="'native-wasm,interpret-s-expr'" \
--s EXPORTED_FUNCTIONS="['_scanImage']" \
+-s EXPORTED_FUNCTIONS="['_scanImage', '_main']" \
 -s ALLOW_MEMORY_GROWTH=1 \
+-s ASSERTIONS=1 \
 -s NO_EXIT_RUNTIME=1 \
 -s ONLY_MY_CODE=1
 

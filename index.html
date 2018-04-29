@@ -9,12 +9,13 @@
             max-width:100%;
         }
     </style>
+    <script src="wasm/image-processor.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
 
 <!-- <video id="capture" autoplay></video> -->
-<canvas id="snap"></canvas>
-
+<canvas id="snap"></canvas><br />
+<img src="barcode.png" id="img" width="114" height="80" alt="Barcode" />
 <!-- <script src="wasm/image-processor.js" type="text/javascript" charset="utf-8"></script> -->
 <script>
     let video = document.getElementById('capture'),
@@ -47,13 +48,23 @@
 
         // requestAnimationFrame(takeSnapshot);
     }
+    
+    function getSnapshot() {
+      const context = canvas.getContext('2d');
+
+      context.drawImage(document.getElementById('img'), 0, 0, 114, 80);
+      const imageData = context.getImageData(0, 0, 114, 80);
+
+      // copy(imageData);
+      console.info(getY800Image(imageData.data, 114, 80));
+    }
 
     function getY800Image(data, width, height) {
-        let y800ImageSample = Uint8ClampedArray(width * height);
+        let y800ImageSample = new Uint8ClampedArray(width * height);
 
         // TODO: Add a second pointer to speed up the byte copy
-        for (let i = 0; i < data.length; i += 4) {
-            y800ImageSample[j] = (data[i] + data[i + 1] + data[i + 2]) / 3;
+        for (let i = 0, j = 0; i < data.length; i += 4, j++) {
+            y800ImageSample[j] = Math.floor((data[i] + data[i + 1] + data[i + 2]) / 3);
         }
 
         return y800ImageSample;
