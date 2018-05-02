@@ -12,11 +12,11 @@ clang -O3 c/image-processor.c -o c/image-processor.o --target=wasm32-unknown-unk
 lld -flavor wasm zbar/zbar_libzbar_la-image.o zbar/zbar_libzbar_la-refcnt.o zbar/zbar_libzbar_la-symbol.o c/image-processor.o \
 -o wasm/clean-image-processor.wasm -e scanImage
 
-emcc -o wasm/image-processor.js zbar/zbar_libzbar_la-image.o zbar/zbar_libzbar_la-refcnt.o zbar/zbar_libzbar_la-symbol.o c/image-processor.c -O3 -Oz --memory-init-file 0  -v \
+emcc -o wasm/image-processor.js zbar/zbar_libzbar_la-image.o zbar/zbar_libzbar_la-refcnt.o zbar/zbar_libzbar_la-symbol.o zbar/zbar_libzbar_la-img_scanner.o c/image-processor.c -O3 -Oz --memory-init-file 0  -v \
 -s WASM=1 \
 -Iinclude \
 -s BINARYEN_METHOD="'native-wasm,interpret-s-expr'" \
--s EXPORTED_FUNCTIONS="['_scanImage', '_main']" \
+-s EXPORTED_FUNCTIONS="['_scanImage']" \
 -s ALLOW_MEMORY_GROWTH=1 \
 -s ASSERTIONS=1 \
 -s NO_EXIT_RUNTIME=1 \
@@ -25,3 +25,31 @@ emcc -o wasm/image-processor.js zbar/zbar_libzbar_la-image.o zbar/zbar_libzbar_l
 
 --memory-init-file 0
 ######################
+
+emcc -o wasm/image-processor.js \
+zbar/zbar_libzbar_la-image.o \
+zbar/zbar_libzbar_la-refcnt.o \
+zbar/zbar_libzbar_la-symbol.o \
+zbar/zbar_libzbar_la-img_scanner.o \
+zbar/zbar_libzbar_la-scanner.o \
+zbar/zbar_libzbar_la-decoder.o \
+zbar/zbar_libzbar_la-error.o \
+zbar/decoder/zbar_libzbar_la-qr_finder.o \
+zbar/decoder/zbar_libzbar_la-code39.o \
+zbar/decoder/zbar_libzbar_la-ean.o \
+zbar/decoder/zbar_libzbar_la-i25.o \
+zbar/decoder/zbar_libzbar_la-code128.o \
+zbar/qrcode/zbar_libzbar_la-qrdec.o \
+zbar/qrcode/zbar_libzbar_la-binarize.o \
+zbar/qrcode/zbar_libzbar_la-isaac.o \
+zbar/qrcode/zbar_libzbar_la-rs.o \
+zbar/qrcode/zbar_libzbar_la-bch15_5.o \
+zbar/qrcode/zbar_libzbar_la-util.o \
+zbar/qrcode/zbar_libzbar_la-qrdectxt.o \
+c/image-processor.c -O3 -Oz --memory-init-file 0 -v \
+-s WASM=1 \
+-Iinclude \
+-s BINARYEN_METHOD="'native-wasm,interpret-s-expr'" \
+-s EXPORTED_FUNCTIONS="['_scanImage']" \
+-s ALLOW_MEMORY_GROWTH=1
+
